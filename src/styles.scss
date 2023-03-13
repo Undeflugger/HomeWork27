@@ -1,0 +1,38 @@
+$color_1: #000;
+$color_2: red;
+$color_3: #B3B3BA;
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: $color_1;
+  cursor: pointer;
+  &:hover {
+    color: $color_2;
+  }
+}
+.modal {
+  width: 400px;
+  height: 20%;
+  padding: 20px;
+  background: #F5F5FA;
+  position: relative;
+  a.close-modal {
+    background: url("../img/Close.svg") no-repeat center;
+    top: 19px;
+    right: 19px;
+  }
+}
+.modal_window {
+  p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $color_3;
+    margin: 10px;
+  }
+}

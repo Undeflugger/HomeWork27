@@ -1,0 +1,34 @@
+{
+  "name": "homework20",
+  "version": "1.0.0",
+  "description": "First time using npm",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "../node_modules/.bin/eslint src ",
+    "lint:fix": "../node_modules/.bin/eslint src --fix"
+  },
+  "keywords": [
+    "HomeWork20"
+  ],
+  "author": "Pavel",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "gulp-sass": "^5.1.0",
+    "npm-watch": "^0.11.0",
+    "sass": "^1.59.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}

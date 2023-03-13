@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+a:hover {
+  color: red;
+}
+
+.modal {
+  width: 400px;
+  height: 20%;
+  padding: 20px;
+  background: #F5F5FA;
+  position: relative;
+}
+.modal a.close-modal {
+  background: url("../img/Close.svg") no-repeat center;
+  top: 19px;
+  right: 19px;
+}
+
+.modal_window p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin: 10px;
+}
